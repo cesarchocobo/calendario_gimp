@@ -214,5 +214,8 @@ Finalmente, se exportan las imagenes en formato png y se borra la imagen en gimp
 
 posteriormente, se repite el codigo anterior dos veces para generar dos paginas mas, la primera que contiene el ultimo mes del año anterior y la ultima que contiene el primer mes del siguiente año. (se omiten esas lineas de codigo en este leeme).
 
-El resultado es una imagen que se ve asi:
+El resultado es una imagen que se ve asi para el mes de septiembre de 2024:
+
+![example_10](https://github.com/cesarchocobo/calendario_gimp/assets/101080325/fdbfbe1c-2b0a-4dcf-9c5d-a9a0b08b0ece)
+
 

@@ -1,7 +1,7 @@
 import os, glob, sys, time, calendar
 from gimpfu import *
 
-carpeta = '/home/cesar/Documents/Proyectos/Calendario_GL/'
+carpeta = 'carpeta'
 feriados = [[1,1],[2,5],[3,18],[5,1],[9,16],[11,18],[12,25]]
 
 def calendario_P(yyyy):

@@ -9,15 +9,15 @@ do
 done
 convert Escritorio/portada.png -units pixelsperinch -density 300 -page 2752x1630 Escritorio/pdf/portada.pdf
 convert Escritorio/anual.png -units pixelsperinch -density 300 -page 2752x1630 Escritorio/pdf/anual.pdf
-cd /home/cesar/Documents/Proyectos/Calendario_GL_2023/Escritorio/pdf
+cd carpeta/Escritorio/pdf
 for i in *.pdf
 do
   gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/printer -dNOPAUSE -dQUIET -dBATCH -sOutputFile=op/$i $i
 done
-cd /home/cesar/Documents/Proyectos/Calendario_GL_2023/Pared/pdf
+cd carpeta/Pared/pdf
 for i in *.pdf
 do
   gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/printer -dNOPAUSE -dQUIET -dBATCH -sOutputFile=op/$i $i
 done
-cd /home/cesar/Documents/Proyectos/Calendario_GL_2023
+cd carpeta
 

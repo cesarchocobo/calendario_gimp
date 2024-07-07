@@ -23,12 +23,12 @@ for i in *.pdf
 do
   gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/printer -dNOPAUSE -dQUIET -dBATCH -sOutputFile=op/$i $i
 done
-cd /home/cesar/Documents/Proyectos/Calendario_GL/Pared/pdf
+cd carpeta/Pared/pdf
 for i in *.pdf
 do
   gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/printer -dNOPAUSE -dQUIET -dBATCH -sOutputFile=op/$i $i
 done
-cd /home/cesar/Documents/Proyectos/Calendario_GL
+cd carpeta
 convert Pared/portada.png -quality 50% -resize 700x700 muestra_portada_pared.png
 convert Pared/1.png -quality 50% -resize 700x700 muestra_pared.png
 convert Escritorio/portada.png -quality 50% -resize 700x700 muestra_portada_escritorio.png
